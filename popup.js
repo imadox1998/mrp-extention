@@ -19,7 +19,7 @@ function displayDeclarations(declarations) {
 }
 
 function handleDeclarationClick(declarationId) {
-    fetch(`http://192.168.100.3:5000/totalPerTaux/${declarationId}`)
+    fetch(http://192.168.1.12:5010/totalPerTaux/${declarationId}`)
     .then(response => response.json())
     .then(result => {
         // Send a message to content.js with the totalPerTaux data
