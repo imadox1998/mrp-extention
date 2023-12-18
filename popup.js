@@ -1,7 +1,7 @@
 // popup.js
 document.addEventListener('DOMContentLoaded', function () {
     // Fetch declarations from the server
-    fetch('http://192.168.100.3:5000/getDeclarations')
+    fetch('http://192.168.1.12:5010/getDeclarations')
       .then(response => response.json())
       .then(declarations => displayDeclarations(declarations))
       .catch(error => console.error('Error fetching declarations:', error));
